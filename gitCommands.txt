@@ -1,0 +1,14 @@
+git init - initialize git in a directory
+git add - mounts the files to the staging area
+git status - shows the status of the files in the directory
+git commit -m - commits the files to the local repository, -m provides with a message
+git log - shows the commit details
+git remote add origin {URL of remote repository} - creates a remote repository named origin
+git push -u origin master - pushes the origin remote repository to the master branch
+git checkout - rolls back the changes made since the last commit
+git clone {URL of the repository} - copies and downloads a repository from Github
+.gitignore - a file which contains the names of the files which are not to be committed
+git branch - shows all the branches of the repository
+git branch {new branch} - creates a new branch locally
+git checkout {branch name} - changes to the mentioned branch
+git merge {branch name} - merges the mentioned branch to the active branch
